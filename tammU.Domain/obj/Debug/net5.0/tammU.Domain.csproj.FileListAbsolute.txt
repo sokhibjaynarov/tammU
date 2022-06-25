@@ -1,0 +1,12 @@
+C:\Users\jayna\Desktop\tammU\tammU.Domain\bin\Debug\net5.0\tammU.Domain.deps.json
+C:\Users\jayna\Desktop\tammU\tammU.Domain\bin\Debug\net5.0\tammU.Domain.dll
+C:\Users\jayna\Desktop\tammU\tammU.Domain\bin\Debug\net5.0\tammU.Domain.pdb
+C:\Users\jayna\Desktop\tammU\tammU.Domain\obj\Debug\net5.0\tammU.Domain.csproj.AssemblyReference.cache
+C:\Users\jayna\Desktop\tammU\tammU.Domain\obj\Debug\net5.0\tammU.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jayna\Desktop\tammU\tammU.Domain\obj\Debug\net5.0\tammU.Domain.AssemblyInfoInputs.cache
+C:\Users\jayna\Desktop\tammU\tammU.Domain\obj\Debug\net5.0\tammU.Domain.AssemblyInfo.cs
+C:\Users\jayna\Desktop\tammU\tammU.Domain\obj\Debug\net5.0\tammU.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jayna\Desktop\tammU\tammU.Domain\obj\Debug\net5.0\tammU.Domain.dll
+C:\Users\jayna\Desktop\tammU\tammU.Domain\obj\Debug\net5.0\refint\tammU.Domain.dll
+C:\Users\jayna\Desktop\tammU\tammU.Domain\obj\Debug\net5.0\tammU.Domain.pdb
+C:\Users\jayna\Desktop\tammU\tammU.Domain\obj\Debug\net5.0\ref\tammU.Domain.dll
