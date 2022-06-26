@@ -19,8 +19,8 @@ namespace tammU.Infrastructure.DbContexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            // options.UseNpgsql("Host=localhost;Database=postgresbot;Username=SA;Password=abubakr0902!");
-            base.OnConfiguring(options);
+            options.UseNpgsql("Server=localhost; Database=tammU; User Id=postgres; Port=5432; Password=13.09.1978;");
+            
         }
 
 
