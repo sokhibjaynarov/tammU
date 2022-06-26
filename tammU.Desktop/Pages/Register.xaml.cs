@@ -48,7 +48,7 @@ namespace tammU.Desktop.Pages
             else if (String.IsNullOrEmpty(password2)) MessageBox.Show("Enter password");
             else if (String.IsNullOrEmpty(firstName)) MessageBox.Show("Enter first name");
             else if (String.IsNullOrEmpty(lastName)) MessageBox.Show("Enter last name");
-            else if (String.IsNullOrEmpty(gender)) MessageBox.Show("Enter gender");
+            //else if (String.IsNullOrEmpty(gender)) MessageBox.Show("Enter gender");
             else if (String.IsNullOrEmpty(birth)) MessageBox.Show("Enter birthday");
             else if (String.IsNullOrEmpty(email)) MessageBox.Show("Enter email");
             else if (password2 != password1) MessageBox.Show("Do not input different password!");

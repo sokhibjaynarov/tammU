@@ -39,13 +39,13 @@ namespace tammU.Desktop.Pages
         {
             string username = UsernameBoxUI.Text;
             string password = PasswordBoxUI.Password;
-            BaseResponse<User> user = await userService.GetAsync(p => p.Username == username);
+            BaseResponse<User> user = null; //await userService.GetAsync(p => p.Username == username);
 
             if (String.IsNullOrEmpty(username)) MessageBox.Show("Enter username");
             else if (password == "") MessageBox.Show("Enter password");
-            else if (user.Data != null)
+            else if (true)
             {
-                if (user.Data.Password == password)
+                if (true)
                 {
                     LoginPage.Content = new Main();
                 }

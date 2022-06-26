@@ -72,7 +72,7 @@ namespace tammU.Desktop.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/tammU.Desktop;component/windows/addreminder.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/tammU.Desktop;V1.0.0.0;component/windows/addreminder.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\AddReminder.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

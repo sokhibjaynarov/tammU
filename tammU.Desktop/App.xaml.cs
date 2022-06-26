@@ -28,10 +28,7 @@ namespace tammU.Desktop
             {
                 services.AddScoped<IUnitOfWork, UnitOfWork>();
                 services.AddScoped<IUserService, UserService>();
-                services.AddDbContext<AppDbContext>(options =>
-                {
-                    options.UseNpgsql("Server=localhost; Database=tammU; User Id=postgres; Port=5432; Password=13.09.1978;");
-                }, ServiceLifetime.Singleton);
+                
             }).Build();
         }
 

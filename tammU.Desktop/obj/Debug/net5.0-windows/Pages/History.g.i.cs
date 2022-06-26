@@ -53,7 +53,7 @@ namespace tammU.Desktop.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/tammU.Desktop;component/pages/history.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/tammU.Desktop;V1.0.0.0;component/pages/history.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\History.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
