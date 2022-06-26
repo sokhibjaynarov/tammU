@@ -5,6 +5,7 @@
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:tammU.Desktop.Pages"
+      xmlns:gif="http://wpfanimatedgif.codeplex.com"
       mc:Ignorable="d" 
       d:DesignHeight="800" d:DesignWidth="1400"
       Title="Advice">
@@ -15,17 +16,18 @@
             <StackPanel>
                 <Expander
                     HorizontalAlignment="Stretch"
-                    Header="Expander Example 2a">
+                    Header="1 | Roll Your Shoulders">
                     <StackPanel
                         Orientation="Vertical"
                         TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
                         Margin="24,8,24,16">
-                        <TextBlock
-                            Text="Your Content" />
-                        <TextBlock
-                          Opacity=".68"
-                          Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                          TextWrapping="Wrap" />
+                        <TextBlock>Disarmingly simple, but so easy to neglect: shoulder rolls are a highly<LineBreak/>
+                            effective and highly manageable exercise to begin improving your posture with. Do<LineBreak/>
+                            them throughout the day in sets of 10, while sitting down at your desk, at home or stood<LineBreak/>
+                            on the train (you might get some odd looks), just make sure you do them. They will help to<LineBreak/>
+                            loosen knots in your neck and strengthen the muscles between your shoulder blades, which in turn<LineBreak/>
+                            will help to realign your neck and back.
+                        </TextBlock>
                     </StackPanel>
                 </Expander>
                 <Border
@@ -35,17 +37,21 @@
                   SnapsToDevicePixels="True" />
                 <Expander
                   HorizontalAlignment="Stretch"
-                  Header="Expander Example 2b">
+                  Header="2 | Start A Stretching Routine">
                     <StackPanel
                         Orientation="Vertical"
                         TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
                         Margin="24,8,24,16">
-                        <TextBlock
-                            Text="Your Content" />
-                        <TextBlock
-                          Opacity=".68"
-                          Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                          TextWrapping="Wrap" />
+                        <TextBlock>
+                            One of the best ways to improve posture without spending hours a day rolling <LineBreak/>
+                            your arms and shoulders all over the place is to embark on a stretching routine.<LineBreak/>
+                            Even if you don't feel like throwing yourself into yoga, an easy sun salutation regime<LineBreak/>
+                            has the benefit of both stretching and strengthening everything from your shoulders, back,<LineBreak/>
+                            neck, abs and triceps to your hamstrings and calves. Aim to perform the routine three times<LineBreak/>
+                            through, ideally first thing in the morning. It will help to warm up your muscles for that day<LineBreak/>
+                            of sitting ahead, and is also a solid alternative to meditation. If sitting in silence thinking<LineBreak/>
+                            about all the things you dislike about yourself isn't really your thing.
+                        </TextBlock>
                     </StackPanel>
                 </Expander>
                 <Border
@@ -54,18 +60,79 @@
                   HorizontalAlignment="Stretch"
                   SnapsToDevicePixels="True" />
                 <Expander
-      HorizontalAlignment="Stretch"
-      Header="Expander Example 2c">
+                  HorizontalAlignment="Stretch"
+                  Header="3 | Sit With Your Feet Flat">
+                                <StackPanel
+                    Orientation="Vertical"
+                    TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                    Margin="24,8,24,16">
+                        <TextBlock>Another one that should be straight forward <LineBreak/>
+                            but is oft-forgotten is to always try and sit at <LineBreak/>
+                            your desk with your feet flat on the ground. If you're <LineBreak/>
+                            sat with legs crossed or your feet out on their sides, then <LineBreak/>
+                            it's likely you're putting unwanted pressure on your hips, lower back, <LineBreak/>
+                            pelvis and sciatic nerve - the one that runs from your spine to your feet - meaning <LineBreak/>
+                            you're greatly increasing your chances at long-term back pain and nerve damage.</TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Border
+                  Background="{DynamicResource MaterialDesignDivider}"
+                  Height="1"
+                  HorizontalAlignment="Stretch"
+                  SnapsToDevicePixels="True" />
+                <Expander
+                  HorizontalAlignment="Stretch"
+                  Header="Expander Example 2c">
                     <StackPanel
-        Orientation="Vertical"
-        TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
-        Margin="24,8,24,16">
+                    Orientation="Vertical"
+                    TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                    Margin="24,8,24,16">
                         <TextBlock
-          Text="Your Content" />
+                      Text="Your Content" />
                         <TextBlock
-          Opacity=".68"
-          Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          TextWrapping="Wrap" />
+                      Opacity=".68"
+                      Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                      TextWrapping="Wrap" />
+                    </StackPanel>
+                </Expander>
+                <Border
+                  Background="{DynamicResource MaterialDesignDivider}"
+                  Height="1"
+                  HorizontalAlignment="Stretch"
+                  SnapsToDevicePixels="True" />
+                <Expander
+                  HorizontalAlignment="Stretch"
+                  Header="Expander Example 2c">
+                    <StackPanel
+                    Orientation="Vertical"
+                    TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                    Margin="24,8,24,16">
+                        <TextBlock
+                      Text="Your Content" />
+                        <TextBlock
+                      Opacity=".68"
+                      Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                      TextWrapping="Wrap" />
+                    </StackPanel>
+                </Expander>
+                <Border
+                  Background="{DynamicResource MaterialDesignDivider}"
+                  Height="1"
+                  HorizontalAlignment="Stretch"
+                  SnapsToDevicePixels="True" />
+                <Expander
+                  HorizontalAlignment="Stretch"
+                  Header="Expander Example 2c">
+                    <StackPanel
+                    Orientation="Vertical"
+                    TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                    Margin="24,8,24,16">
+                        <TextBlock
+                      Text="Your Content" />
+                        <TextBlock
+                      Opacity=".68"
+                      Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                      TextWrapping="Wrap" />
                     </StackPanel>
                 </Expander>
             </StackPanel>

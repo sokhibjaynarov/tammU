@@ -106,3 +106,4 @@ C:\Users\jayna\Desktop\tammU\tammU.Desktop\bin\Debug\net5.0-windows\Microsoft.We
 C:\Users\jayna\Desktop\tammU\tammU.Desktop\bin\Debug\net5.0-windows\Microsoft.Web.WebView2.Wpf.dll
 C:\Users\jayna\Desktop\tammU\tammU.Desktop\obj\Debug\net5.0-windows\Windows\AddReminder.g.cs
 C:\Users\jayna\Desktop\tammU\tammU.Desktop\obj\Debug\net5.0-windows\Windows\AddReminder.baml
+C:\Users\jayna\Desktop\tammU\tammU.Desktop\bin\Debug\net5.0-windows\WpfAnimatedGif.dll

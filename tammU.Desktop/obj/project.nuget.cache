@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MWienfR92RyXe8JJ9UEQ9Eq8ZzVmPpkQGSrLcnCVhWtkQOyjKrCSftxkKZs6X/pU/BU9ce8nwOpvwJPZoo67YQ==",
+  "dgSpecHash": "ocO6nseJoAuqGx3aA6r83Yfr5SjmU/h9E0sR5YUIeLLPtMiJr0GCmVBa7V7fuyaPPzmQP3zffwMTebYTww7FAQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\jayna\\Desktop\\tammU\\tammU.Desktop\\tammU.Desktop.csproj",
   "expectedPackageFiles": [
@@ -64,7 +64,8 @@
     "C:\\Users\\jayna\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\jayna\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\jayna\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
-    "C:\\Users\\jayna\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+    "C:\\Users\\jayna\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\jayna\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
   ],
   "logs": [
     {
