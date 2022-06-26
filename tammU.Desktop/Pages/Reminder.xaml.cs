@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using tammU.Desktop.Windows;
 
 namespace tammU.Desktop.Pages
 {
@@ -23,6 +24,12 @@ namespace tammU.Desktop.Pages
         public Reminder()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = new AddReminder();
+            window.Show();
         }
     }
 }

@@ -5,10 +5,402 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:tammU.Desktop.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="800" d:DesignWidth="1400"
       Title="Reminder">
 
     <Grid Background="AliceBlue">
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Margin="10">
+            <StackPanel>
+                <Label Height="70" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center"
+                       Content="Default Reminders"/>
+                <Grid 
+                    Margin="0 20 0 0"
+                    Height="100">
+                    <Border 
+                        BorderBrush="BlanchedAlmond"
+                        BorderThickness="2"
+                        CornerRadius="20">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Exercise"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <Label Grid.Row="1"
+                                   Content="Qo'llar uchun mashq"
+                                   FontSize="15"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Repeated"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <Label Grid.Row="1"
+                                   Content="Every 30 minutes"
+                                   FontSize="15"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                            </Grid>
+                            <Grid Grid.Column="2">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Enable/Disable"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <ToggleButton Grid.Row="1"
+                                    Style="{StaticResource MaterialDesignSwitchToggleButton}"
+                                    ToolTip="MaterialDesignSwitchToggleButton"
+                                    IsChecked="True" />
+                            </Grid>
+                            <Grid Grid.Column="3">
+                                <!-- checkbox style same as toggle button -->
+                                <CheckBox
+                                    Content="Done"
+                                    FontSize="15"
+                                    Width="40"
+                                    Height="40"
+                                    Style="{StaticResource MaterialDesignActionDarkCheckBox}"
+                                    ToolTip="MaterialDesignActionDarkCheckBox" />
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </Grid>
+                <Grid 
+                    Margin="0 20 0 0"
+                    Height="100">
+                    <Border 
+                        BorderBrush="BlanchedAlmond"
+                        BorderThickness="2"
+                        CornerRadius="20">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Exercise"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <Label Grid.Row="1"
+                                   Content="Qo'llar uchun mashq"
+                                   FontSize="15"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Repeated"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <Label Grid.Row="1"
+                                   Content="Every 30 minutes"
+                                   FontSize="15"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                            </Grid>
+                            <Grid Grid.Column="2">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Enable/Disable"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <ToggleButton Grid.Row="1"
+                                    Style="{StaticResource MaterialDesignSwitchToggleButton}"
+                                    ToolTip="MaterialDesignSwitchToggleButton"
+                                    IsChecked="True" />
+                            </Grid>
+                            <Grid Grid.Column="3">
+                                <!-- checkbox style same as toggle button -->
+                                <CheckBox
+                                    Content="Done"
+                                    FontSize="15"
+                                    Width="40"
+                                    Height="40"
+                                    Style="{StaticResource MaterialDesignActionDarkCheckBox}"
+                                    ToolTip="MaterialDesignActionDarkCheckBox" />
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </Grid>
+                <Grid 
+                    Margin="0 20 0 0"
+                    Height="100">
+                    <Border 
+                        BorderBrush="BlanchedAlmond"
+                        BorderThickness="2"
+                        CornerRadius="20">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Exercise"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <Label Grid.Row="1"
+                                   Content="Qo'llar uchun mashq"
+                                   FontSize="15"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Repeated"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <Label Grid.Row="1"
+                                   Content="Every 30 minutes"
+                                   FontSize="15"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                            </Grid>
+                            <Grid Grid.Column="2">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Enable/Disable"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <ToggleButton Grid.Row="1"
+                                    Style="{StaticResource MaterialDesignSwitchToggleButton}"
+                                    ToolTip="MaterialDesignSwitchToggleButton"
+                                    IsChecked="True" />
+                            </Grid>
+                            <Grid Grid.Column="3">
+                                <!-- checkbox style same as toggle button -->
+                                <CheckBox
+                                    Content="Done"
+                                    FontSize="15"
+                                    Width="40"
+                                    Height="40"
+                                    Style="{StaticResource MaterialDesignActionDarkCheckBox}"
+                                    ToolTip="MaterialDesignActionDarkCheckBox" />
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </Grid>
+                <Grid 
+                    Margin="0 20 0 0"
+                    Height="100">
+                    <Border 
+                        BorderBrush="BlanchedAlmond"
+                        BorderThickness="2"
+                        CornerRadius="20">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Exercise"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <Label Grid.Row="1"
+                                   Content="Qo'llar uchun mashq"
+                                   FontSize="15"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Repeated"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <Label Grid.Row="1"
+                                   Content="Every 30 minutes"
+                                   FontSize="15"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                            </Grid>
+                            <Grid Grid.Column="2">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Enable/Disable"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <ToggleButton Grid.Row="1"
+                                    Style="{StaticResource MaterialDesignSwitchToggleButton}"
+                                    ToolTip="MaterialDesignSwitchToggleButton"
+                                    IsChecked="True" />
+                            </Grid>
+                            <Grid Grid.Column="3">
+                                <!-- checkbox style same as toggle button -->
+                                <CheckBox
+                                    Content="Done"
+                                    FontSize="15"
+                                    Width="40"
+                                    Height="40"
+                                    Style="{StaticResource MaterialDesignActionDarkCheckBox}"
+                                    ToolTip="MaterialDesignActionDarkCheckBox" />
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Column="1" Margin="10">
+            <StackPanel>
+                <Label Height="70" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center"
+                       Content="My Reminders"/>
+                <Grid 
+                    Margin="0 20 0 0"
+                    Height="100">
+                    <Border 
+                        BorderBrush="BlanchedAlmond"
+                        BorderThickness="2"
+                        CornerRadius="20">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Exercise"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <Label Grid.Row="1"
+                                   Content="Dori ichish"
+                                   FontSize="15"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Repeated"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <Label Grid.Row="1"
+                                   Content="Every 5 hours"
+                                   FontSize="15"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                            </Grid>
+                            <Grid Grid.Column="2">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0"
+                                   Content="Enable/Disable"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                                <ToggleButton Grid.Row="1"
+                                    Style="{StaticResource MaterialDesignSwitchToggleButton}"
+                                    ToolTip="MaterialDesignSwitchToggleButton"
+                                    IsChecked="True" />
+                            </Grid>
+                            <Grid Grid.Column="3">
+                                <!-- checkbox style same as toggle button -->
+                                <CheckBox
+                                    Content="Done"
+                                    FontSize="15"
+                                    Width="40"
+                                    Height="40"
+                                    Style="{StaticResource MaterialDesignActionDarkCheckBox}"
+                                    ToolTip="MaterialDesignActionDarkCheckBox" />
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </Grid>
+                <Grid Margin="0 20 0 0">
+                    <Button Content="Add reminder"
+                            Width="120"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Right"
+                            Click="Button_Click"/>
+                </Grid>
+                </StackPanel>
+        </Grid>
     </Grid>
 </Page>

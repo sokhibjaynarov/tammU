@@ -31,7 +31,6 @@
     <Folder Include="Assets\" />
     <Folder Include="Components\" />
     <Folder Include="Themes\" />
-    <Folder Include="Windows\" />
     <Folder Include="Resources\" />
     <Folder Include="Styles\" />
   </ItemGroup>

@@ -104,3 +104,5 @@ C:\Users\jayna\Desktop\tammU\tammU.Desktop\bin\Debug\net5.0-windows\runtimes\win
 C:\Users\jayna\Desktop\tammU\tammU.Desktop\bin\Debug\net5.0-windows\Microsoft.Web.WebView2.Core.dll
 C:\Users\jayna\Desktop\tammU\tammU.Desktop\bin\Debug\net5.0-windows\Microsoft.Web.WebView2.WinForms.dll
 C:\Users\jayna\Desktop\tammU\tammU.Desktop\bin\Debug\net5.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\jayna\Desktop\tammU\tammU.Desktop\obj\Debug\net5.0-windows\Windows\AddReminder.g.cs
+C:\Users\jayna\Desktop\tammU\tammU.Desktop\obj\Debug\net5.0-windows\Windows\AddReminder.baml

@@ -31,6 +31,9 @@
     <Compile Update="Pages\Reminder.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Windows\AddReminder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
@@ -58,6 +61,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\Reminder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\AddReminder.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
