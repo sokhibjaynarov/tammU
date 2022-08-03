@@ -1,2 +1,3 @@
-2022/06/25-15:39:23.059 5a38 Creating DB C:\Users\jayna\Desktop\tammU\tammU.Desktop\bin\Debug\net5.0-windows\tammU.Desktop.exe.WebView2\EBWebView\Default\EntityExtractionAssetStore.db since it was missing.
-2022/06/25-15:39:23.076 5a38 Reusing MANIFEST C:\Users\jayna\Desktop\tammU\tammU.Desktop\bin\Debug\net5.0-windows\tammU.Desktop.exe.WebView2\EBWebView\Default\EntityExtractionAssetStore.db/MANIFEST-000001
+2022/06/26-16:24:45.161 292c Reusing MANIFEST C:\Users\jayna\Desktop\tammU\tammU.Desktop\bin\Debug\net5.0-windows\tammU.Desktop.exe.WebView2\EBWebView\Default\EntityExtractionAssetStore.db/MANIFEST-000001
+2022/06/26-16:24:45.163 292c Recovering log #3
+2022/06/26-16:24:45.168 292c Reusing old log C:\Users\jayna\Desktop\tammU\tammU.Desktop\bin\Debug\net5.0-windows\tammU.Desktop.exe.WebView2\EBWebView\Default\EntityExtractionAssetStore.db/000003.log 
